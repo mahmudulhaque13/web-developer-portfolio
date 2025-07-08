@@ -50,7 +50,7 @@
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat ;
-    background-position: top left, bottom right;
+    background-position: center left, bottom right;
 }
 
 /* nav styles */
@@ -141,5 +141,7 @@ main section{
     gap: 24px;
 }
 
-.skills-description{}
+.resume-container{
+    display: flex;
+}
 
